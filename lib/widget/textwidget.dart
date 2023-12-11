@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 
+// Create Text Widget With ternary Function
+
 class Textless extends StatelessWidget {
   // initilize Variable
   final String text;
