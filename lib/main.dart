@@ -1,6 +1,4 @@
 
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 
 void main(){
@@ -19,8 +17,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(),
+        title: Text("Welcome"),
+        backgroundColor: Colors.redAccent,
+        centerTitle: true,
       ),
     );
   }
 }
+
+
+
+
